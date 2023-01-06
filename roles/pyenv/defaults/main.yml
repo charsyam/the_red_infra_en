@@ -1,0 +1,26 @@
+---
+pyenv_root: /usr/local/pyenv
+
+pyenv_runcom: /etc/profile.d/pyenv.sh
+
+pyenv_versions:
+  - 3.8.6
+
+pyenv_default_version: 3.8.6
+
+pyenv_virtualenvs: 
+  - name: the-red-dev
+    python_version: 3.8.6
+    packages:
+      - docker
+      - docker-compose
+      - gunicorn
+
+pyenv_virtualenv: true
+
+pyenv_default_virtualenv: the-red-dev
+
+default_pyenv_packages:
+  - docker
+  - docker-compose
+  - gunicorn

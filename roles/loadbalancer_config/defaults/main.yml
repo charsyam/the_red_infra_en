@@ -1,0 +1,5 @@
+---
+lb_port: 80
+geoip_port: 7001
+backends: "localhost:{{geoip_port}}"
+lb_config_name: geoip

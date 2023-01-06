@@ -1,0 +1,10 @@
+[ngrinder]
+15.165.31.1
+3.36.110.208 ngrinder_master_addr=172.31.55.70:8080
+3.35.241.177 ngrinder_master_addr=172.31.55.70:8080
+
+[prometheus]
+15.165.31.1
+
+[grafana]
+3.36.110.208

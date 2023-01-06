@@ -1,0 +1,14 @@
+---
+- name: Install GeoIP
+  hosts: geoip
+  become: yes
+
+  roles:
+     - { role: geoip, tags: [ 'geoip' ] }
+
+- name: Install Nginx
+  hosts: geoip
+  become: yes
+
+  roles:
+     - { role: nginx, tags: [ 'nginx' ] }
