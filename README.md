@@ -41,7 +41,7 @@ libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev python-openssl
 
 * Run terraform 
 ```
-    cd terraform/ec2/ap-northeast-2
+    cd terraform/ec2/us-east-1
     terraform init
     terraform plan -out "output"
     terraform apply "output"
